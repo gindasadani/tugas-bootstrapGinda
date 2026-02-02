@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belajar Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="navbarr">
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg fixed-top" style="background-color: black;">
+        <div class="container">
+          <a class="navbar-brand" href="#" style="color: white;">Kopi  <span class="kopi"> Angkringan</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#produk">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#keunggulan">Keunggulan</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+  </div>
+  <!-- navbar selesai -->
+
+  <!-- banner -->
+  <div class="content">
+    <div class="container-fluid banner d-flex align-items-center">
+      <div class="container">
+        <h1 class="text-light text-center display-5 mb-1 ">
+          Welcome In <span class="kopi">Kopi Angkringan</span>
+        </h1>
+        <h2 class="text-light text-center display-7 mb-1">
+          Sederhana Dan Bermakna
+        </h2>
+        <div class="input-group input-group-lg">
+          <select class="form-control" id="inputGroupSelect04">
+            <option selected>KOPI ANGKRINGAN</option>
+            <option value="1">Tentang Kami</option>
+            <option value="2">Produk</option>
+            <option value="3">Kontak</option>
+          </select>
+          <button class="btn btn-lg btn-outline-warning text-light" type="button">Search</button>
+        </div>
+      </div>
+    </div>
+    <!-- banner selesai -->
+
+    <!-- section -->
+    <div class="section">
+      <section id="keunggulan">
+        <div class="row text-center">
+          <div class="colom-12 padding-5">
+            <h2 class="display-4">Keunggulan Kami</h2>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <span class="fa-stack fa-2">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-list fa-stack-1x text-white"></i>
+            </span>
+            <h3 class="mt-4">Harga Yang Terjangkau</h3>
+
+            <p>Kopi angkringan kami menawarkan kenikmatan dengan harga yang ramah di kantong semua kalangan, mulai dari
+              mahasiswa hingga pekerja. Dengan uang receh, Anda sudah bisa mendapatkan segelas kopi panas yang
+              mantap.</p>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <span class="fa-stack fa-2">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-shop-lock fa-stack-1x text-white"></i>
+            </span>
+            <h3 class="mt-4">Cita Rasa Khas (Aroma Arang Dan Tradisional)</h3>
+
+            <p>Kami tetap setia menggunakan tungku arang dan ceret tradisional untuk memasak air. Suhu panas yang stabil
+              dari arang memberikan aroma smoky yang khas dan rasa kopi yang lebih kuat. Sekali hirup, Anda akan tahu
+              bedanya kopi kami dengan yang lain.</p>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <span class="fa-stack fa-2">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-dollar fa-stack-1x text-white"></i>
+            </span>
+            <h3 class="mt-4">Tempat Curhat Paling Ternyaman</h3>
+
+            <p>Angkringan kami adalah "ruang tamu" bagi siapa saja. Tidak peduli latar belakang Anda, di sini kita semua
+              sama. Pelayanan kami ramah seolah Anda sedang bertamu ke rumah kawan lama, membuat suasana ngobrol jadi
+              lebih hidup dan akrab.</p>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <span class="fa-stack fa-2">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-tree-city fa-stack-1x text-white"></i>
+            </span>
+            <h3 class="mt-4">Camilan Pendamping yang Selalu Hangat</h3>
+
+            <p>Kopi kami punya pasangan setia. Mulai dari Nasi Kucing dengan sambal spesial hingga aneka sate-satean
+              yang bisa Anda bakar ulang di atas tungku kami. Di sini, Anda tidak hanya sekadar minum, tapi benar-benar
+              dimanjakan dengan jajanan yang menggugah selera.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <!-- section selesai -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

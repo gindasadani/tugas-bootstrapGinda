@@ -1,0 +1,56 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(header-bg.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  display: block;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.mas {
+  color: white;
+}
+
+.gen {
+  color: rgb(209, 200, 67);
+}
+
+.kopi {
+  color: rgb(209, 200, 67);
+  font-weight: bold;
+}
+
+.classs {
+  color: white;
+}
+
+.section {
+  padding: 50px 10px;
+
+}
+
+.nav-link {
+  color: white; 
+}
+
+.nav-link:hover {
+  color: rgb(209, 200, 67); 
+}
